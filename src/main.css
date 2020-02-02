@@ -1,0 +1,190 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.promoContainer {
+    width: 100%;
+    height: 130vh;
+    text-align: center;
+    background-image: url("image/1.png");
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    border: 2px solid red;
+}
+
+.promo {
+    max-width: 1170px;
+    margin: 0 auto;
+    border: 2px solid red;
+    height: 100vh;
+    height: 100%;
+}
+
+.promoHeader {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 87px;
+    margin-right: 35px;
+}
+
+.promoHeader__item {
+    display: flex;
+    height: 35px;
+}
+
+.promoHeader__icon {
+    margin: 0 5px 0 23px;
+}
+
+.promoHeader__item--pair {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    margin: 0 20px 0 60px;
+    width: 420px;
+}
+
+.promoHeader__content {
+    font-size: 15px;
+    font-style: italic;
+    margin-left: 6px;
+    text-align: left;
+}
+
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.form {
+    background-image: url("image/form.png");
+    background-position: center;
+    height: 600px;
+    width: 270px;
+    /*object-fit: contain;*/
+
+}
+
+.promoContent {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 8px;
+}
+
+.brand {
+    padding: 19px 32px 0 0;
+
+}
+
+
+.preference {
+    height: 320px;
+    /*width: 360px;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.preference__title {
+    font-size: 44px;
+    text-align: left;
+    line-height: 44px;
+}
+
+.preference__title-small {
+    font-size: 34px;
+}
+
+
+.preference__block {
+    display: flex;
+    height: 50px;
+    margin-top: 10px;
+}
+
+.preference__img {
+    height: 65px;
+    width: 65px;
+    margin-right: 15px;
+}
+
+.preference__text {
+    font-size: 20px;
+    text-align: left;
+}
+
+
+#name {
+    background: bisque;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/*-------------*/
+
+.about_pictogram {
+    margin-top: 165px;
+}
+
+.about_title {
+    margin: 35px 0 30px 0;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.about_text {
+    font-size: 24px;
+    margin-bottom: 27px;
+  font-weight: 600
+}
+
+.aboutBlock {
+    display: flex;
+    justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.infection_block {
+    width: 28%;
+}
+
+
+.infection {
+    height: 240px;
+    display: flex;
+}
+
+.infection_photo {
+    width: 190px;
+    height: 220px;
+}
+
+.infection_text {
+    font-size: 22px;
+    margin-top: 75px;
+  margin-left: 17px;
+  text-align: left;
+  font-weight: 600;
+}
+
+
+.infection_info {
+    font-size: 18px;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.info {
+    padding: 5px;
+    border: 2px solid blue;
+}
